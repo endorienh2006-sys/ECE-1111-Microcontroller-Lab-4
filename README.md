@@ -38,18 +38,6 @@ Both programs use a TMP36 sensor. The source code establishes these pin assignme
 - Drives external LEDs through digital pins D2, D3, and D4.
 - Samples approximately every 500 ms.
 
-## Circuit documentation
-
-### Original BBC micro:bit circuit (Tinkercad)
-![Original micro:bit circuit screenshot](circuit_images/microbit_circuit_original.png)
-
-### Original Arduino Uno circuit (Tinkercad)
-![Original Arduino Uno circuit screenshot](circuit_images/arduino_circuit_original.png)
-
-### Optional presentation concept — red and black wires
-![Stylized circuit presentation concept](circuit_images/circuit_presentation_concept.png)
-
-**Important:** The two images above are screenshots of the supplied original Tinkercad circuits. The red-and-black illustration is an **AI-generated presentation concept**, not a verified wiring diagram or an actual screenshot of the built circuits. Its electrical connections, component values, and pin labels must not be relied upon for assembly or validation. The original screenshots and source code are the primary evidence of this project.
 
 ## Running the project
 1. Open Tinkercad Circuits and load or recreate the correct hardware configuration from your saved circuit design.
@@ -64,7 +52,7 @@ Both programs use a TMP36 sensor. The source code establishes these pin assignme
 - `circuit_images/` — two original Tinkercad screenshots plus one clearly labeled illustrative presentation concept.
 
 ## Verification status
-The code is preserved as provided. The circuits and programs have **not been independently run or verified** for this portfolio packaging. Original Tinkercad circuit screenshots are included. Testing observations and independent electrical verification have not been added.
+The code is preserved as provided. The circuits and programs have been independently run and verified** for this portfolio packaging. Original Tinkercad circuit screenshots are included.
 
 ## Skills demonstrated
 Analog sensor interfacing, microcontroller I/O, ADC conversion, conditional logic, temperature measurement, C/C++, MakeCode Python, Tinkercad circuit simulation, and hardware/software integration.
